@@ -14,4 +14,7 @@ console.log(prix_telephone);
 console.log(prix_ttc_telephone);
 
 // AFFICHER DANS LA LOG LE MONTANT DE LA TVA DE LA VARIABLE prix_telephone
+TVA=prix_ttc_telephone-prix_telephone;
+console.log(TVA);
+
 

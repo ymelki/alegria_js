@@ -106,4 +106,18 @@ console.table(tab);
 
 console.log(tab[2]);  // 343
 
-console.log(maChaine[3]); // i
+console.log(maChaine[3]); // 
+
+let nom="Yoel";
+
+for (let i=0   ;   i <10 ;   i++    ) {   // BOUCLE : INITIALISON LA VAR I = 0 ; ARRETONS a 100 ; INCREMENTER DE 1
+    console.log(i);      // ECRIRE DANS LA LOG LES CHIFFRES DE 1 A 100
+  
+  
+  }
+for (let i=0   ;   i <nom.length ;   i++    ) {   // BOUCLE : INITIALISON LA VAR I = 0 ; ARRETONS a 100 ; INCREMENTER DE 1
+  console.log(i);      // ECRIRE DANS LA LOG LES CHIFFRES DE 1 A 100
+
+
+}
+

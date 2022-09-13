@@ -103,3 +103,7 @@ console.log(longueur);
 let tab=[ 13, "test", 343, "dfdsf", maChaine   ];
 
 console.table(tab);
+
+console.log(tab[2]);  // 343
+
+console.log(maChaine[3]); // i

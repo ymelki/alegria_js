@@ -1,5 +1,14 @@
 console.log("j'écris dans la log ! ");
+const monProgramme="jeu";
+// monProgramme="Jeu 2";
 
+let maVariable="Je teste";
+maVariable="je test 2";
+
+console.log(maVariable);
+
+
+console.log(monProgramme)
 // du commentaire
 
 /*
@@ -32,7 +41,7 @@ console.log("Nous avons du Sucre  " + SUCRE);
 /***  Ne pas toucher a ce qui est au dessus   */
 
 // votre code qui va inverser les variables
-recipTemp=SEL;
+recipTemp=SEL; // RECIPTEMP CONTIENT 100
 SEL=SUCRE; // SEL 120
 SUCRE=recipTemp;
 
@@ -44,5 +53,17 @@ console.log("Nous avons du Sel  " + SEL);
 console.log("Nous avons du Sucre  " + SUCRE);
 
 
+// CONDITIONS
+let age = 5;
+
+ if (age > 18) {  // SI AGE  > 17 ALORS 
+      console.log("Vous etes majeurs ");  // AFFICHE MAJEUR
+     
+ }  // FIN DU SI
+ else {  // SI NON
+    console.log("Vous etes mineurs ");  // AFFICHE MAJEUR
+   
+}  // FIN DU SI
 
 
+// BOUCLES

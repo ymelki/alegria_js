@@ -121,3 +121,10 @@ for (let i=0   ;   i <nom.length ;   i++    ) {   // BOUCLE : INITIALISON LA VAR
 
 }
 
+for (let i=1   ;   i <10 ;   i++    ) {   // BOUCLE : INITIALISON LA VAR I = 0 ; ARRETONS a 100 ; INCREMENTER DE 1
+    let result=i*2;
+    console.log("2 * " + i + " = " + result);      // ECRIRE DANS LA LOG LES CHIFFRES DE 1 A 100
+  
+  
+  }
+

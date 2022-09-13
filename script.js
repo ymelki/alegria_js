@@ -94,3 +94,12 @@ if ((nbpair % 2) == 0) {
 else {
     console.log("Le nombre est impair !")
 }
+
+let maChaine="voici ma chaine de caractere";
+let longueur=maChaine.length;
+console.log(longueur);
+
+
+let tab=[ 13, "test", 343, "dfdsf", maChaine   ];
+
+console.table(tab);

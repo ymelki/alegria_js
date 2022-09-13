@@ -128,3 +128,19 @@ for (let i=1   ;   i <10 ;   i++    ) {   // BOUCLE : INITIALISON LA VAR I = 0 ;
   
   }
 
+  for (let i=1   ;   i <10 ;   i++    ) {   // BOUCLE : INITIALISON LA VAR I = 0 ; ARRETONS a 100 ; INCREMENTER DE 1
+    let result=i*8;
+    console.log("8 * " + i + " = " + result);      // ECRIRE DANS LA LOG LES CHIFFRES DE 1 A 100
+  
+  
+  }
+
+  for (let i=1   ;   i <10 ;   i++    ) {   // BOUCLE : INITIALISON LA VAR I = 0 ; ARRETONS a 100 ; INCREMENTER DE 1
+    console.log("Table de "  + i )
+    for (let j=1   ;   j <10 ;   j++    ) {   // BOUCLE : INITIALISON LA VAR I = 0 ; ARRETONS a 100 ; INCREMENTER DE 1
+        let result=i*j;
+        console.log(j  + " * " +  i + " = " + result);      // ECRIRE DANS LA LOG LES CHIFFRES DE 1 A 100
+      }
+  }
+  
+

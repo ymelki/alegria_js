@@ -67,3 +67,30 @@ let age = 5;
 
 
 // BOUCLES
+
+
+// 1. initialiser une variable numerique et afficher dans la log si la variable est un nombre positif ou negatif
+let nb = 10;
+if (nb === 0 ) {
+    console.log(" = 0");  // AFFICHE MAJEUR
+   
+}
+if (nb > 0) {  // SI AGE  > 17 ALORS 
+    console.log("Nombre positif ");  // AFFICHE MAJEUR
+   
+}  // FIN DU SI
+else {  // SI NON
+  console.log("Nombre négatif ");  // AFFICHE MAJEUR
+ 
+} // FIN DU SI
+
+
+
+// 2. initialiser une variable numerique et afficher dans la log si la variable est un nombre pair ou impair
+let nbpair=4;
+if ((nbpair % 2) == 0) {
+    console.log("le nombre est pair ! ");
+}
+else {
+    console.log("Le nombre est impair !")
+}

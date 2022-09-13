@@ -32,7 +32,9 @@ console.log("Nous avons du Sucre  " + SUCRE);
 /***  Ne pas toucher a ce qui est au dessus   */
 
 // votre code qui va inverser les variables
-
+recipTemp=SEL;
+SEL=SUCRE; // SEL 120
+SUCRE=recipTemp;
 
 
 /***  Ne pas toucher a ce qui est en dessous   */

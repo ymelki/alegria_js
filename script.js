@@ -269,3 +269,51 @@ for (let n=0; n<q3; n++    ){
 }
 console.log ("Jeu gagné");
 
+/**EXO FACTORIEELLE
+ * CREER UNE VARIABLE CONTENANT UN NOMBRE
+ * PAR EX : 5
+ * FAIRE LE CALCUL 1 * 2 * 3 * 4 * 5
+ * 
+ * 
+ * N=50
+ * 1*2*3....*50
+ * 
+ * 
+ */
+let monNombré3=50;
+// BOUCLE de 1 à 50
+// STOCKER LE RESULTAT DANS UNE VARIABLE D ACCUMULATION 1*2
+// RESULTAT + 2*3...
+
+// Factorielle
+let NB5=10;
+
+// 1*2*3*4*10
+// BOUCLE de 1 à NB5
+
+
+let RESULTAT=1; // VARIABLE D ACCUMULATION
+// BOUCLE 
+    RESULTAT=RESULTAT * i;
+// FIN BOUCLE
+
+
+for (let i=1; i < NB5; i++ ){
+    console.log("Le resultat est :"  + RESULTAT);
+    console.log(i);
+    RESULTAT = RESULTAT * i;
+    /**      RESULT      i 
+      * 1 TOUR1: 1       * 1
+     * 2 TOUR2:  1 * 2 
+     * 2 TOUR3:  2 * 3
+     */
+    // 1 * 2 * 3...
+}
+
+// PAREIL AVEC LA SOMME
+// VAR = 5
+// 1+2+3+4+5
+
+
+
+

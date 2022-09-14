@@ -313,6 +313,51 @@ for (let i=1; i < NB5; i++ ){
 // PAREIL AVEC LA SOMME
 // VAR = 5
 // 1+2+3+4+5
+let unNom="Yoel";
+let last_c=UnNom[unNom.length].toUpper(); // dernier caractere en maj
+let deb=substr(unNom,0,unNom.length-1); // Tout les caracteres sauf le denier
+let chaine=deb+last_c;
+
+let sprenom="Yoel";
+let snom="Melki"
+let sdeb=substr(sprenom,2,sprenom.length); // Tout les caracteres sauf le denier
+  // une chaine du prenom sans le premiere caractere
+// uine chaine du nom avec uniqument le premiere caractere
+
+
+// Inverser les lettres du nom (par exemple Henri devient irneH) avec un boucle
+bprenom="Yoel";
+  // Nouveau tableau / chaine de caractere qui va contenir les meme infos avec les indices inverse
+
+let  machaine="";
+  let indice=0;
+for (let i = bprenom.length ; i  >= 0 ; i-- ) {
+    console.log(i);
+    machaine[indice] = bprenom[i];
+    indice++;
+}
+
+// 7. Supprimer toutes les voyelles dans la phrase suivante 
+let tchaine="Alegria Academy Rocks";
+
+for (  let i=0; i < tchaine.length; i++    ){
+    // si la lettre contient une voyelle je la supprime
+    if (  tchaine[i]  == "a"      ) { // on la supprime 
+    }
+    if (  tchaine[i]  == "e"      ) { // on la supprime 
+    }
+    if (  tchaine[i]  == "i"      ) { // on la supprime 
+    }
+    // .. 
+}
+
+
+
+
+
+
+
+
 
 
 

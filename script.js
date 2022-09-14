@@ -185,3 +185,25 @@ if ( (ages > 17)  || (sexe="M")  ) {
 if (ages != 10){
     console.log("Vous n'avez pas 10 ans");
 }
+
+let monPrenom=prompt("Quel est ton prénom");
+
+for(var x=2; x < 100; x=x*2) {
+	console.log(x)
+}
+
+
+// BOUCLE WHILE 0 A 10
+for (let i=0   ;   i <10 ;   i++    ) {   // BOUCLE : INITIALISON LA VAR I = 0 ; ARRETONS a 100 ; INCREMENTER DE 1
+    console.log(i);      // ECRIRE DANS LA LOG LES CHIFFRES DE 1 A 100
+  
+  
+  }
+
+// WHILE
+let k = 0; // initialisation
+while( k <10  ) {
+  console.log(k);      // ECRIRE DANS LA LOG LES CHIFFRES DE 1 A 100
+  k++; //incrementation
+  
+}

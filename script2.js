@@ -41,8 +41,8 @@ function add(nb1,nb2){
 
 }
 
-add(3,5)
-add(3,55)
+add(3,5);
+add(3,55);
 
 
 function mult(nb1,nb2){
@@ -51,7 +51,10 @@ function mult(nb1,nb2){
 
 }
 
-mult(3,5)
-mult(3,55)
+mult(3,5);
+mult(3,55);
 
-
+/** 
+ * CREER LA FONCTION REPEAT2 ELLE VA AFFICHER LE PARAMETRE1 AUTANT DE FOIS QUE LE DEMANDE LE PRAMAETRE2
+ * repeat2("Bonjour",5)
+ */

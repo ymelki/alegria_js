@@ -54,7 +54,22 @@ function mult(nb1,nb2){
 mult(3,5);
 mult(3,55);
 
+
+
 /** 
  * CREER LA FONCTION REPEAT2 ELLE VA AFFICHER LE PARAMETRE1 AUTANT DE FOIS QUE LE DEMANDE LE PRAMAETRE2
  * repeat2("Bonjour",5)
  */
+
+function repeat2(  mot_repete   , nb       ){
+
+    for (  let i = 0    ;  i < nb    ; i++   ) {
+
+        console.log( mot_repete  );
+  
+    }
+
+}
+
+repeat2("TEST",10)
+// ESSAYER WHILE

@@ -32,5 +32,26 @@ function affiche_nb(nb){
 
 }
 
+
 affiche_nb(5);
+
+function add(nb1,nb2){
+    let somme=nb1+nb2;
+    console.log(somme);
+
+}
+
+add(3,5)
+add(3,55)
+
+
+function mult(nb1,nb2){
+    let mult=nb1*nb2;
+    console.log(mult);
+
+}
+
+mult(3,5)
+mult(3,55)
+
 

@@ -142,5 +142,46 @@ for (let i=1   ;   i <10 ;   i++    ) {   // BOUCLE : INITIALISON LA VAR I = 0 ;
         console.log(j  + " * " +  i + " = " + result);      // ECRIRE DANS LA LOG LES CHIFFRES DE 1 A 100
       }
   }
-  
 
+  // CREER UNE VARIABLE = 5 . CALCULER LA FACTORIELLE 5 * 4 * 3 * 2 * 1
+  console.table(tab);
+
+  console.log(tab[3]);
+  let maChaine2="ce que je veux";
+  console.log(maChaine2[3]);
+
+ let salutation = "hello";
+  salutation[0]="x";
+  console.log(salutation);
+
+  const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+const citrus = fruits.slice(0, 3);
+console.table(citrus);
+
+const paragraph = 'The quick brown fox jumps over the lazy dog. If the dog barked, was it really lazy?';
+
+const searchTerm = 'dog';
+const indexOfDog = paragraph.indexOf(searchTerm);
+console.log(indexOfDog)
+// output: 40
+
+
+const searchNewTerm = "cat";
+const indexOfCat = paragraph.indexOf(searchNewTerm)
+console.log(indexOfCat);
+// output: -1
+
+const chorus = 'Hello everyone ';
+console.log(chorus.repeat(3));
+// output: Hello everyone Hello everyone Hello everyone
+
+let ages=35;
+let sexe="M";
+
+if ( (ages > 17)  || (sexe="M")  ) {
+     console.log("Homme majeur");
+}
+
+if (ages != 10){
+    console.log("Vous n'avez pas 10 ans");
+}

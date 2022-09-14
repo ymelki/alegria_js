@@ -17,3 +17,10 @@ function afficher_prenom( toto  )  {
 // fonction qui va prendre un parametre une chaine de caractere qui sera un nom et qui l affichera
 afficher_prenom("Axel");
 afficher_prenom("Melki")
+
+
+/**
+ * 1/ FAIRE UNE FONCTION QUI PREND EN PARAMETRE UN NOMBRE et QUI AFFICHE CE NOMBRE + 1 . mafonction(5) => affiche 6
+ * 2/ FAIRE UNE FONCTION QUI PREND EN PARAMETRE 2 NOMBRES et QUI AFFICHE la somme de ces nombres . mafonction(5,5) => affiche 10
+ * 2/ FAIRE UNE FONCTION QUI PREND EN PARAMETRE 2 NOMBRES et QUI AFFICHE la multiplcation de ces nombres . mafonction(5,5) => affiche 25
+ */

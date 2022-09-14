@@ -208,9 +208,33 @@ while( k <10  ) {
   
 }
 
-/**
+/**EXO 1
  * 
  * FAIRE UNE INVITE EN JAVASCRIPT QUI DEMANDE DECIRE UN NOMBRE
  * VOUS ALLEZ AFFICHER DANS LA LOG LES CHIFFRE DE 0 A CE NOMBRE
  * ESSAYER FOR ET WHILE
+ * 
+ * EXO 2
+ * 
+ * CREER UNE VARIABLE N = 50
+ * VOUS ALLER FAIRE UNE INVITE EN JAVASCRIPT QUI DEMANDE DECIRE UN NOMBRE
+ * SI CE NOMBRE= A LA VARIABLE N QUI EST 50 ALORS CA ECRIT DANS LA CONSOLE " JEU GAGNE "
+ * SI NON CA REPOSE LA QUESTION AVEC L INVITE
+ * 
+ * EXO 3
+ * FACTORIELLE
+ * N=5
+ * 5*4*3*2*1
+ * 
  */
+
+ let n=50;
+
+ let chiffre=prompt("Quel est ton chiffre ?");
+ while (chiffre != n){
+    console.log(n);
+    console.log(chiffre);
+    let chiffre=prompt("Quel est ton chiffre ?");
+
+ }
+ console.log("test2")

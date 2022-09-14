@@ -227,14 +227,45 @@ while( k <10  ) {
  * 5*4*3*2*1
  * 
  */
+// EXO 1
+let monNombre=prompt("Quel est votre nonmbre ?");
 
+for (let i=0;i<monNombre; i++){
+    console.log(i);
+}
+let i=0;
+while ( i<monNombre ){
+    console.log(i);
+    i++;
+}
+
+
+// EXO 2
  let n=50;
 
  let chiffre=prompt("Quel est ton chiffre ?");
  while (chiffre != n){
-    console.log(n);
-    console.log(chiffre);
-    let chiffre=prompt("Quel est ton chiffre ?");
+    console.log(n); 
+   chiffre=prompt("Quel est ton chiffre ?");
 
  }
- console.log("test2")
+
+ console.log("BRAVO ! ")
+
+
+ let q3= prompt ("selon vous, quel est le nombre magique ?");
+let ns=50 ; //conditions à verifier
+while (ns!=q3){ // si la condition n estr différente du résultat à q3
+    if (q3 > ns ) { console.log(" C'est trop haut ! "); } else { console.log("c'est trop bas ! ") }
+    q3= prompt ("Essaye encore "); // pas besoin d'incrémenter
+}
+console.log ("Jeu gagné");
+
+
+// FOR 
+for (let n=0; n<q3; n++    ){
+    q3= prompt ("Essaye encore "); // pas besoin d'incrémenter
+
+}
+console.log ("Jeu gagné");
+

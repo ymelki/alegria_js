@@ -24,3 +24,13 @@ afficher_prenom("Melki")
  * 2/ FAIRE UNE FONCTION QUI PREND EN PARAMETRE 2 NOMBRES et QUI AFFICHE la somme de ces nombres . mafonction(5,5) => affiche 10
  * 2/ FAIRE UNE FONCTION QUI PREND EN PARAMETRE 2 NOMBRES et QUI AFFICHE la multiplcation de ces nombres . mafonction(5,5) => affiche 25
  */
+
+
+function affiche_nb(nb){
+    nb2=nb+1;
+    console.log(nb2);
+
+}
+
+affiche_nb(5);
+

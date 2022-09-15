@@ -202,7 +202,7 @@ console.log(mafonctiontest());
  * 4. Créer un tableau ‘prenom’ comprenant 5 éléments différents de type String.
     5. Ecrire une fonction pour définir l'élément le plus petit du tableau prenom (celui comportant le moins de lettres)
  */
-let prenom=["Yoel", "Axel", "Richard", "Pierre", "Jean"];
+let prenom=[ "Axelle", "Richardtest", "YoelL","Pierretrsfddsfds", "Jeansdfdsfdsfdsfds"];
 
 
 function affichertab(tab) {
@@ -211,3 +211,26 @@ function affichertab(tab) {
     });
 }
 affichertab(prenom);
+// le prenom qui a le moins de caractere
+// .length : le nombre de caractere
+// min=0;
+// si la variable qu on lit > min alors min = 9999 le nombre de caractere de la variable lu
+
+function nb_min_tab(tab){
+    let nb_min=99999; 
+    let ind=0;
+    
+    tab.forEach(function(element,index) {
+        
+        
+        if (element.length < nb_min ){ 
+            nb_min = element.length;  
+           ind=index;
+        }
+        
+    });
+    return ind;
+
+}
+
+console.log(nb_min_tab(prenom));

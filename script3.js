@@ -122,7 +122,7 @@ for (let i=var1.length-1; i >= 0; i--){
     result=result+var1[i]
 
 }
-
+/*
 function reverse2(variable){
     result="";
     console.log(variable);
@@ -146,3 +146,20 @@ reverse2("??? !")
  * 
  * 
  */
+
+let ages = [14,13,34,34,23];
+let resultat=0;
+for (let i = 0; i < ages.length; i++) {
+    console.log(ages[i]);
+    resultat=resultat+ages[i];
+  }
+console.log(resultat);
+
+let resultat2=0;
+ages.forEach(function(element) {
+    resultat2=resultat2+element;
+	console.log(element)
+});
+console.log(resultat2);
+
+

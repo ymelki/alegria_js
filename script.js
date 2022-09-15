@@ -72,7 +72,7 @@ let age = 5;
 // 1. initialiser une variable numerique et afficher dans la log si la variable est un nombre positif ou negatif
 let nb = 10;
 if (nb === 0 ) {
-    console.log(" = 0");  // AFFICHE MAJEUR
+    console.log(" = 0");  // = 0
    
 }
 if (nb > 0) {  // SI AGE  > 17 ALORS 
@@ -116,7 +116,7 @@ for (let i=0   ;   i <10 ;   i++    ) {   // BOUCLE : INITIALISON LA VAR I = 0 ;
   
   }
 for (let i=0   ;   i <nom.length ;   i++    ) {   // BOUCLE : INITIALISON LA VAR I = 0 ; ARRETONS a 100 ; INCREMENTER DE 1
-  console.log(i);      // ECRIRE DANS LA LOG LES CHIFFRES DE 1 A 100
+  console.log(nom[i]);      // ECRIRE DANS LA LOG LES CHIFFRES DE 1 A 100
 
 
 }
@@ -124,8 +124,7 @@ for (let i=0   ;   i <nom.length ;   i++    ) {   // BOUCLE : INITIALISON LA VAR
 for (let i=1   ;   i <10 ;   i++    ) {   // BOUCLE : INITIALISON LA VAR I = 0 ; ARRETONS a 100 ; INCREMENTER DE 1
     let result=i*2;
     console.log("2 * " + i + " = " + result);      // ECRIRE DANS LA LOG LES CHIFFRES DE 1 A 100
-  
-  
+   
   }
 
   for (let i=1   ;   i <10 ;   i++    ) {   // BOUCLE : INITIALISON LA VAR I = 0 ; ARRETONS a 100 ; INCREMENTER DE 1
@@ -294,7 +293,7 @@ let NB5=10;
 
 let RESULTAT=1; // VARIABLE D ACCUMULATION
 // BOUCLE 
-    RESULTAT=RESULTAT * i;
+ //   RESULTAT=RESULTAT * i;
 // FIN BOUCLE
 
 
@@ -337,6 +336,10 @@ for (let i = bprenom.length ; i  >= 0 ; i-- ) {
     indice++;
 }
 
+
+let tab1=Array(5);
+
+
 // 7. Supprimer toutes les voyelles dans la phrase suivante 
 let tchaine="Alegria Academy Rocks";
 
@@ -352,6 +355,9 @@ for (  let i=0; i < tchaine.length; i++    ){
 }
 
 
+
+// Variable contenant un nombre aleatoire entre 1 et 100
+let alea=Math.floor(Math.random() * 100); 
 
 
 

@@ -73,3 +73,20 @@ function repeat2(  mot_repete   , nb       ){
 
 repeat2("TEST",10)
 // ESSAYER WHILE
+
+
+
+let age=35;
+let sexe="M"
+
+if (  (age > 17) && (sexe="M")    ){
+    console.log("Cet homme à > 18 ans");
+}
+else {
+    console.log("Cette femme a < 18 ans ")
+}
+
+
+if (  (age > 18) || (sexe="M")    ){
+    console.log("SOIT UN  homme Soit  > 18 ans");
+}

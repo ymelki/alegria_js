@@ -173,3 +173,28 @@ function sommet(tab){
   return resultat;
 }
 console.log(   sommet(  [10,10,10]   )   );
+
+
+
+// appliquer la somme de mon tableau
+// diviser la somme / le nombre d elements
+function laMoyenne(tab) {
+    let masomme=sommet(  tab );
+    let moyenne = masomme / tab.length;
+    return moyenne;
+}
+
+
+console.log(   laMoyenne(  [10,10,10]   ));
+
+
+let mavariable="test"; // VARIABLE GLOBAL
+function mafonctiontest(){
+    let mavariable="ce que je veux";
+    return mavariable;
+}
+console.log(mavariable);
+let info=mafonctiontest();
+console.log(info);
+console.log(mafonctiontest());
+// console.log(mavariable); // AFFICHE  ... 

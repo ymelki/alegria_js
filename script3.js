@@ -44,3 +44,20 @@ function affiche_hello2()  {
 
 affiche_hello();
 let mavar=affiche_hello2();
+
+// nombre aleatoire entre 1 et 100
+let alea=Math.floor(Math.random() * 100); 
+
+
+
+// creer une fonction qui renvoie vrai ou faux 
+function isequal(nb){
+    if (nb == alea){
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+console.log(alea)
+console.log(isequal(10))

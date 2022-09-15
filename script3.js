@@ -198,3 +198,16 @@ let info=mafonctiontest();
 console.log(info);
 console.log(mafonctiontest());
 // console.log(mavariable); // AFFICHE  ... 
+/**
+ * 4. Créer un tableau ‘prenom’ comprenant 5 éléments différents de type String.
+    5. Ecrire une fonction pour définir l'élément le plus petit du tableau prenom (celui comportant le moins de lettres)
+ */
+let prenom=["Yoel", "Axel", "Richard", "Pierre", "Jean"];
+
+
+function affichertab(tab) {
+    tab.forEach(function(element) {
+        console.log(element)
+    });
+}
+affichertab(prenom);

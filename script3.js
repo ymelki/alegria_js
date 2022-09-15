@@ -61,3 +61,34 @@ function isequal(nb){
 }
 console.log(alea)
 console.log(isequal(10))
+
+let compteur = O;
+
+function niveau(nb_chance){
+    while( compteur < nb_chance ){
+        if (isequal(nb)) { 
+            break 
+        } 
+        else {
+            if (nb > alea) { 
+                console.log("cest plus ! ")
+            }
+            else {
+                console.log("cest moins ! ")
+            }
+        }
+        compteur++;
+    }
+}
+
+niveau(10);
+niveau(3);
+
+// GENERER UN NOMBRE ALEATOIRE AVANT
+// BOUCLE TANT QUE < 6 CHANCES
+/** IF LE NOMBRE EST = , > ou < 
+ * sortie de la boucle
+ * reboucler si c'est plus ou moins
+ * 
+ * 
+ */

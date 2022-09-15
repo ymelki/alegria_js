@@ -163,3 +163,13 @@ ages.forEach(function(element) {
 console.log(resultat2);
 
 
+function sommet(tab){
+
+    let resultat=0;
+   for (let i = 0; i < tab.length; i++) {
+    console.log(tab[i]);
+    resultat=resultat+tab[i];
+   }
+  return resultat;
+}
+console.log(   sommet(  [10,10,10]   )   );
